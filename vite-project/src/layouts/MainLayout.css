@@ -1,0 +1,25 @@
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-layout header {
+  background-color: #2563eb;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.main-layout main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.main-layout footer {
+  background-color: #f3f4f6;
+  color: #6b7280;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+}
